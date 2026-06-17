@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+ta
+python-binance
+plotly
+streamlit-autorefresh
+xgboost
+scikit-learn
