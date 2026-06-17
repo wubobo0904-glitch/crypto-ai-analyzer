@@ -15,7 +15,7 @@ if "trade_history" not in st.session_state:
     st.session_state.trade_history = []
 st.title("🤖 AI Crypto Analyzer")
 
-client = Client()
+client = Client(tld="us")
 def backtest(df):
 
     balance = 10000
